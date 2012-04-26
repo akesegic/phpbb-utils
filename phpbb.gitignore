@@ -1,0 +1,23 @@
+#########
+# phpbb.gitignore
+# A generic .gitignore file for phpBB
+#########
+
+# Cache files
+cache/*.php
+
+# Configuration file
+# This may be unpopular to include, but it will prevent accidental db information
+# commits.
+config.php
+
+# Attachments
+!files/
+files/*
+!files/index.htm
+
+# Uploaded avatars
+!images/avatars/upload/
+images/avatars/upload/*
+!images/avatars/upload/index.htm
+
